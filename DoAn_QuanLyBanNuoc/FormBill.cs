@@ -2,12 +2,8 @@
 using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DoAn_QuanLyBanNuoc
@@ -67,7 +63,7 @@ namespace DoAn_QuanLyBanNuoc
                 listReport.Add(temp);
             }
 
-            this.reportViewer1.LocalReport.ReportPath = @"C:\Users\PHUDUC\Desktop\QLBN\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report2.rdlc";
+            this.reportViewer1.LocalReport.ReportPath = @"C:\_\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report2.rdlc";
             var reportDataSource = new ReportDataSource("DataSet1", listReport);
             this.reportViewer1.LocalReport.DataSources.Clear();
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);
