@@ -47,7 +47,7 @@ namespace DoAn_QuanLyBanNuoc
                 listReport.Add(temp);
             }
 
-            this.reportViewer1.LocalReport.ReportPath = @"C:\Users\PHUDUC\Desktop\QLBN\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report1.rdlc";
+            this.reportViewer1.LocalReport.ReportPath = @"C:\_\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report1.rdlc";
             var reportDataSource = new ReportDataSource("DataSet1", listReport);
             this.reportViewer1.LocalReport.DataSources.Clear();
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);
@@ -74,7 +74,7 @@ namespace DoAn_QuanLyBanNuoc
                 listReport.Add(temp);
             }
 
-            this.reportViewer1.LocalReport.ReportPath = @"E:\LapTrinh windows\Báo cáo\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report1.rdlc";
+            this.reportViewer1.LocalReport.ReportPath = @"C:\_\DoAn_QuanLyBanNuoc\DoAn_QuanLyBanNuoc\Report1.rdlc";
             var reportDataSource = new ReportDataSource("DataSet1", listReport);
             this.reportViewer1.LocalReport.DataSources.Clear();
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource);
